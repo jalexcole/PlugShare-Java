@@ -1,0 +1,12 @@
+
+vscode:
+  extensions:
+    - redhat.fabric8-analytics
+    - vscjava.vscode-java-pack
+    - wmanth.jar-viewer
+    - vscjava.vscode-maven
+    - vscjava.vscode-java-dependency
+    - SonarSource.sonarlint-vscode
+    - vscjava.vscode-java-test
+    - redhat.vscode-xml
+    - vscode-icons-team.vscode-icons

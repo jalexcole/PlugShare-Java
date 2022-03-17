@@ -3,6 +3,8 @@ package com.plugshare;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.fasterxml.jackson.annotation.JsonValue;
+
 public class AmenitiesList {
     public final Map<Integer, String> amenities = new HashMap<>();
 
@@ -18,3 +20,4 @@ public class AmenitiesList {
         amenities.put(9, "Grocery");
     }
 }
+

@@ -21,4 +21,17 @@ public class Station {
     public String pre_charge_instructions; // Optional network provided instruction to display before charging.
     public Boolean qr_enabled; // True if this station is tagged with a QR code for station identification;
     public String created_at; // ISO 860 Format "yyyy-mm-ddThh:mm:ssZ"
+    
+    @Override
+    public String toString() {
+        return "Station [Longitude=" + Longitude + ", available=" + available + ", cost=" + cost + ", cost_description="
+                + cost_description + ", created_at=" + created_at + ", hours=" + hours + ", id=" + id + ", latitude="
+                + latitude + ", location_id=" + location_id + ", manufacturer=" + manufacturer + ", model=" + model
+                + ", name=" + name + ", network=" + network + ", network_id=" + network_id + ", outlets=" + outlets
+                + ", pre_charge_instructions=" + pre_charge_instructions + ", pwps_version=" + pwps_version
+                + ", qr_enabled=" + qr_enabled + "]";
+    }
+
+    
+
 }
