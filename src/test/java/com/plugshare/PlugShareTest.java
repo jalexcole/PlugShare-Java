@@ -5,7 +5,7 @@ import static org.junit.Assert.assertNotNull;
 import org.junit.Before;
 import org.junit.Test;
 
-public class PlugShareTest {
+public class PlugShareTest{
     String ApiKey = "";
 
     PlugShare plugShare;
@@ -19,7 +19,7 @@ public class PlugShareTest {
     public void getLocation() {
         int location = 3806;
         plugShare.getLocation(0);
-
+        
         assertNotNull(plugShare.getLocation(location));
     }
 }
